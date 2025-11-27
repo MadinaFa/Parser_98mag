@@ -75,19 +75,49 @@ python 1.py
 
 дата
 
-При необходимости можно добавить:
+Пример результата работы парсера:
 
-сохранение в CSV
+D:\PythonProject\Parser\.venv\Scripts\python.exe D:\PythonProject\Parser\98mag.py 
+В Алматы пройдёт фестиваль альтернативных способов печати
+https://www.98mag.kz/gorod/sobytiya/v-almaty-projdyot-festival-alternativnyh-sposobov-pechati/
+25 ноября 2025
 
-сохранение в JSON
+Almaty Museum of Arts представит инсталляцию Бахыт Бубикановой «Чудо»
+https://www.98mag.kz/gorod/sobytiya/almaty-museum-of-arts-predstavit-installyacziyu-bahyt-bubikanovoj-chudo/
+22 ноября 2025
 
-сохранение в Excel
+Atelier Cauchemar запускает серию лимитированных коллекций
+https://www.98mag.kz/gorod/cauchemar-edition-novyj-proekt-atelier-cauchemar/
+19 ноября 2025
 
-запись в базу данных
+«Кайрат» перенёс два домашних матча Лиги чемпионов в Астану
+https://www.98mag.kz/gorod/kajrat-perenyos-dva-domashnih-matcha-ligi-chempionov-na-astana-arenu/
+19 ноября 2025
 
-Например, сохранить список событий в JSON:
+Aspan Gallery на ярмарке Abu Dhabi Art 2025
+https://www.98mag.kz/gorod/aspan-gallery-na-yarmarke-abu-dhabi-art-2025/
+15 ноября 2025
 
-import json
+Чемпионы Formula-1 соберутся в Ташкенте на FIA Awards 2025
+https://www.98mag.kz/gorod/chempiony-formula-1-soberutsya-v-tashkente-na-fia-awards-2025/
+15 ноября 2025
+
+Gorillaz выступят в Казахстане
+https://www.98mag.kz/gorod/gorillaz-vystupyat-v-kazahstane/
+14 ноября 2025
+
+В Алматы пройдёт фестиваль подростковой рок-музыки
+https://www.98mag.kz/gorod/v-almaty-projdet-festival-podrostkovoj-rok-muzyki/
+13 ноября 2025
+
+Алисса Сантос: танцовщица J-Hope и JENNIE в Казахстане
+https://www.98mag.kz/gorod/alissa-santos-tanczovshhicza-j-hope-i-jennie-v-kazahstane/
+12 ноября 2025
+
+Искусство Алматы: что посмотреть в ноябре?
+https://www.98mag.kz/gorod/iskusstvo-almaty-chto-posmotret-v-noyabre/
+6 ноября 2025
+
 
 with open("events.json", "w", encoding="utf-8") as f:
     json.dump(result, f, ensure_ascii=False, indent=4)
